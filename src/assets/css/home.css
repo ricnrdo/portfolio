@@ -1,0 +1,38 @@
+#home {
+    position: relative;
+    z-index: -1;
+    margin-top: -5rem;
+}
+
+#home img {
+    display: block;
+    width: 100%;
+    height: 100dvh;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.curved-text {
+    position: absolute;
+    top: 24.5%;
+    left: 14%;
+    width: 57%;
+    z-index: 5;
+    transform: translateY(-5px);
+}
+
+.guideButton {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    align-items: center;
+    margin: 0 3rem;
+    gap: 1rem;
+}
+
+.down-arrow-icon {
+    padding: 0.5rem;
+    border-radius: 50px;
+    fill: #482C2C;
+}
+

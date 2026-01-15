@@ -8,12 +8,12 @@
 
   height: 100dvh;
   width: 100dvw;
+  color: #482C2C;
 }
 
 body {
   display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
   margin: 0;
 
   overflow-wrap: break-word;
@@ -29,4 +29,8 @@ a {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+}
+
+section {
+  min-height: 100dvh;
 }
