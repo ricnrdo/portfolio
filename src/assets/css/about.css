@@ -1,29 +1,54 @@
 #about {
     display: grid;
-    padding: 4rem 2.5rem;
-    gap: 6rem;
-    grid-template-columns: 1fr 1fr;
+    position: relative;
+    padding: 6rem 4rem 2rem 4rem;
+    column-gap: 6rem;
+    grid-template-columns: minmax(50%, 55%) minmax(45%, 50%);
     grid-template-rows: auto 1fr 1fr;
     grid-template-areas: 
         "text-box title"
         "text-box cutout-container"
         "text-box cutout-container";
+    z-index: -2;
+    min-height: 80dvh;
+}
+
+#about a {
+    width:fit-content;
+    padding: 1rem 2rem;
+    align-content: center;
+    border-radius: 0.5rem;
 }
 
 .text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     grid-area: text-box;
+    font-size: 1.3rem;
 }
 
-.title {
+.about-title {
     grid-area: title;
+}
+
+.divider {
+    border: 0.15rem solid #482C2C;
+    margin-bottom: 0.7rem;
+    width: 15%;
+}
+
+.cutout {
+    position: absolute;
+    width: 100%;
+    bottom: -2rem;
+    right: 2rem;
 }
 
 .cutout-container {
     position: relative;
-    grid-area: cutout-container;
-}
-.cutout {
+    height: 100%;
     width: 100%;
-    position: absolute;
-    bottom: -4rem;
+    grid-area: cutout-container;
+    padding-top: 4rem;
 }

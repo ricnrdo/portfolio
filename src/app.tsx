@@ -36,12 +36,15 @@ createRoot(document.getElementById('main')!).render(
 
           In the past, I've had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I also released a comprehensive video course a few years ago, guiding learners through building a web app with the Spotify API
         </p>
-        <button className="glass">
+        <a href="#home" className="glass">
           Learn More
-        </button>
+        </a>
         </div>
-        <h1 className="title">CS Student & Developer</h1>
-        <div className="cutout-container">
+        <div className="about-title">
+          <div className="divider"></div>
+          <h1 className="title">CS Student & Developer</h1>
+        </div>
+        <div className='cutout-container'>
           <img className="cutout" src={cutout} width={200}/>
         </div>
       </section>
