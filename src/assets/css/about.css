@@ -1,0 +1,29 @@
+#about {
+    display: grid;
+    padding: 4rem 2.5rem;
+    gap: 6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas: 
+        "text-box title"
+        "text-box cutout-container"
+        "text-box cutout-container";
+}
+
+.text-box {
+    grid-area: text-box;
+}
+
+.title {
+    grid-area: title;
+}
+
+.cutout-container {
+    position: relative;
+    grid-area: cutout-container;
+}
+.cutout {
+    width: 100%;
+    position: absolute;
+    bottom: -4rem;
+}

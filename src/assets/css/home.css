@@ -1,7 +1,6 @@
 #home {
     position: relative;
     z-index: -1;
-    margin-top: -5rem;
 }
 
 #home img {
@@ -14,9 +13,9 @@
 
 .curved-text {
     position: absolute;
-    top: 24.5%;
-    left: 14%;
-    width: 57%;
+    top: 17%;
+    left: 14.5%;
+    width: 63%;
     z-index: 5;
     transform: translateY(-5px);
 }
