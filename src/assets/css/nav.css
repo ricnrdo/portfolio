@@ -1,8 +1,9 @@
 header {
-  position: fixed;
-  height: 5rem;
-  width: 100%;
-  top: 0;
+    position: absolute;
+    height: 5rem;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 }
 
 .nav-container {
@@ -13,12 +14,12 @@ header {
     height: 100%;
 }
 
-.nav-container.glass {
+/* .nav-container.glass {
     transition:
         background-color 1.5s ease,
         backdrop-filter 1.5s ease,
         -webkit-backdrop-filter 1.5s ease;
-}
+} */
 
 .nav-container img {
     width: 6rem;

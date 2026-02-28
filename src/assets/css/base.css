@@ -1,11 +1,14 @@
 :root {
-  font-family: Outfit, sans-serif;
+  width: 100dvw;
+  min-height: 100dvh;
 
+  font-family: Outfit, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #482C2C;
+  background-color: #482C2C;
 }
 
 *, *::before, *::after {
@@ -13,12 +16,12 @@
 }
 
 html, p, body, img {
+  overflow-wrap: break-word;
   margin: 0;
 }
 
-body {
-  overflow-wrap: break-word;
-  background-image: linear-gradient(to bottom, #8D92B5, #AAAAC9);
+html {
+  background-image: linear-gradient(to bottom, #AAAAC9, #8D92B5);
 }
 
 a {

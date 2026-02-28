@@ -2,15 +2,13 @@
     display: grid;
     position: relative;
     padding: 6rem 4rem 2rem 4rem;
-    column-gap: 6rem;
-    grid-template-columns: minmax(50%, 55%) minmax(45%, 50%);
-    grid-template-rows: auto 1fr 1fr;
+    column-gap: 5.5rem;
+    grid-template-columns: minmax(45%, 48%) minmax(40%, 45%);
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
         "text-box title"
         "text-box cutout-container"
         "text-box cutout-container";
-    z-index: -2;
-    min-height: 80dvh;
 }
 
 #about a {
@@ -39,10 +37,9 @@
 }
 
 .cutout {
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: -2rem;
-    right: 2rem;
+    border-radius: 2rem;
 }
 
 .cutout-container {
@@ -50,5 +47,5 @@
     height: 100%;
     width: 100%;
     grid-area: cutout-container;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }

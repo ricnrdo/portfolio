@@ -30,7 +30,9 @@
 }
 
 .down-arrow-icon {
-    padding: 0.5rem;
+    width: 40px;
+    height: 40px;
+    padding: 0.6rem;
     border-radius: 50px;
     fill: #482C2C;
 }

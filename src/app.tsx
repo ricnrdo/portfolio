@@ -6,7 +6,7 @@ import backgroundImage from './assets/img/background.jpg';
 
 import CurvedText from './components/curvedText';
 import ArrowDownIcon from './components/downArrow';
-import cutout from './assets/img/cutout.png';
+import cutout from './assets/img/no-cutout.jpeg';
 
 createRoot(document.getElementById('header')!).render(
   <StrictMode>
@@ -46,6 +46,14 @@ createRoot(document.getElementById('main')!).render(
         </div>
         <div className='cutout-container'>
           <img className="cutout" src={cutout} width={200}/>
+        </div>
+      </section>
+      <section id="skills">
+        <div>
+          <div>45</div>
+          <div>Skill2</div>
+          <div>Skill3</div>
+          <div>Skill4</div>
         </div>
       </section>
     </>
