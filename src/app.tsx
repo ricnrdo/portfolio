@@ -7,6 +7,8 @@ import backgroundImage from './assets/img/background.jpg';
 import CurvedText from './components/curvedText';
 import ArrowDownIcon from './components/downArrow';
 import cutout from './assets/img/no-cutout.jpeg';
+import SkillComponent from './components/skillComponent';
+
 
 createRoot(document.getElementById('header')!).render(
   <StrictMode>
@@ -45,15 +47,14 @@ createRoot(document.getElementById('main')!).render(
           <h1 className="title">CS Student & Developer</h1>
         </div>
         <div className='cutout-container'>
-          <img className="cutout" src={cutout} width={200}/>
+          <img className="cutout" src={cutout}/>
         </div>
       </section>
-      <section id="skills">
-        <div>
-          <div>45</div>
-          <div>Skill2</div>
-          <div>Skill3</div>
-          <div>Skill4</div>
+      <section id="skills" data-dev-section>
+        <div className='skill-title glass'><span>Worked With</span></div>
+        <div className="carousel">
+          <SkillComponent />
+          <SkillComponent ariaHidden />
         </div>
       </section>
     </>
