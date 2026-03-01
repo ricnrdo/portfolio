@@ -1,11 +1,11 @@
 import ProjectPP from "../assets/img/project-pp.png";
 
-type CardComponentProps = {
-    img: string;
-    link: string;
-    description: string;
-    title: string;
-}
+// type CardComponentProps = {
+//     img: string;
+//     link: string;
+//     description: string;
+//     title: string;
+// }
 
 // export default function CardComponent({ img, link, description, title } : CardComponentProps) {
 //     return (
