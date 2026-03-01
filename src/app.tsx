@@ -8,11 +8,42 @@ import CurvedText from './components/curvedText';
 import ArrowDownIcon from './components/downArrow';
 import cutout from './assets/img/no-cutout.jpeg';
 import SkillComponent from './components/skillComponent';
+import CardComponent from './components/cardComponent';
+
+// App.tsx (or a small DevScroll.tsx you render once)
+import { useEffect } from "react";
+
+export function DevScrollToBottom() {
+  useEffect(() => {
+    if (!import.meta.env.DEV) return;
+
+    const scrollToBottom = () => {
+      // Run after the DOM/layout settles
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          window.scrollTo(0, document.documentElement.scrollHeight);
+        });
+      });
+    };
+
+    scrollToBottom();
+
+    // Fires on Vite hot updates
+    import.meta.hot?.on("vite:afterUpdate", scrollToBottom);
+
+    return () => {
+      import.meta.hot?.off("vite:afterUpdate", scrollToBottom);
+    };
+  }, []);
+
+  return null;
+}
 
 
 createRoot(document.getElementById('header')!).render(
   <StrictMode>
     <>
+      {import.meta.env.DEV && <DevScrollToBottom />}
       <NavComponent />
     </>
   </StrictMode>,
@@ -55,6 +86,15 @@ createRoot(document.getElementById('main')!).render(
         <div className="carousel">
           <SkillComponent />
           <SkillComponent ariaHidden />
+        </div>
+      </section>
+      <section id="projects">
+        <span className="center">Recent Projects</span>
+        <div className="project-container">
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
         </div>
       </section>
     </>
