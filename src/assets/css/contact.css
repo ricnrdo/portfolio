@@ -1,0 +1,41 @@
+#contact {
+    display: block;
+    padding: 4rem;
+    background: rgba(84, 62, 122, 0.229);
+}
+
+#contact span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+#contact form {
+    display: grid;
+    gap: 1rem;
+}
+
+#contact div {
+    display: flex;
+    gap: 1rem;
+}
+
+#contact input {
+    width: 100%;
+    padding: 1.3rem 1.2rem;
+    border: 0;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: vertical;
+    height: 15rem;
+    border: 0;
+    padding: 1.3rem 1.2rem;
+    border-radius: 10px;
+}
+
+input[type='submit'] {
+    display: flex;
+    width: 10px;
+}

@@ -103,7 +103,16 @@ createRoot(document.getElementById('main')!).render(
         </div>
       </section>
       <section id="contact">
-        
+        <span className="center">Contact Form</span>
+        <form action="" method="post">
+          <div>
+            <input className='glass' type='text' placeholder='First Name'/>
+            <input className='glass' type='text' placeholder='Last Name'/>
+          </div>
+          <input className='glass' type='text' placeholder='Subject'/>
+          <textarea className='glass' placeholder='Email Body'></textarea>
+          <input className='glass' type='submit' id='submit-btn'/>
+        </form>
       </section>
     </>
   </StrictMode>,
