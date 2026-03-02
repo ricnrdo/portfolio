@@ -96,6 +96,14 @@ createRoot(document.getElementById('main')!).render(
           <CardComponent />
           <CardComponent />
         </div>
+        <div className="load-more">
+          <a href="#home" className='glass'>
+            More Projects
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        
       </section>
     </>
   </StrictMode>,

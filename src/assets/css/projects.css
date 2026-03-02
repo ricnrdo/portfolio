@@ -36,3 +36,17 @@
     width: 100%;
     border-radius: 15px;
 }
+
+.load-more {
+    height: auto;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.load-more a {
+    display: flex;
+    width: fit-content;
+    padding: 1.5rem 2.5rem;
+    justify-content: space-between;
+    border-radius: 1em;
+}
