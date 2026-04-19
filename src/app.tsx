@@ -46,7 +46,7 @@ createRoot(document.getElementById('header')!).render(
       {import.meta.env.DEV && <DevScrollToBottom />}
       <NavComponent />
     </>
-  </StrictMode>,
+  </StrictMode>
 )
 
 createRoot(document.getElementById('main')!).render(
