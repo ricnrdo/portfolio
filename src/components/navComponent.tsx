@@ -17,8 +17,8 @@ function NavComponent() {
         // <nav className={`nav-container ${scrolled ? "glass scrolled" : ""}`}>
         <nav className="nav-container">
             <ul className="navigation">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <img src={logo}/>
