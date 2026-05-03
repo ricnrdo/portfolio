@@ -1,5 +1,5 @@
 import cutout from '../assets/img/no-cutout.jpeg';
-import git from '../assets/img/git.png';
+// import git from '../assets/img/git.png';
 
 export default function About() {
 
