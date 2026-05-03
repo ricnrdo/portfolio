@@ -13,37 +13,37 @@ import CardComponent from './components/cardComponent';
 // App.tsx (or a small DevScroll.tsx you render once)
 import { useEffect } from "react";
 
-export function DevScrollToBottom() {
-  useEffect(() => {
-    if (!import.meta.env.DEV) return;
+// export function DevScrollToBottom() {
+//   useEffect(() => {
+//     if (!import.meta.env.DEV) return;
 
-    const scrollToBottom = () => {
-      // Run after the DOM/layout settles
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          window.scrollTo(0, document.documentElement.scrollHeight);
-        });
-      });
-    };
+//     const scrollToBottom = () => {
+//       // Run after the DOM/layout settles
+//       requestAnimationFrame(() => {
+//         requestAnimationFrame(() => {
+//           window.scrollTo(0, document.documentElement.scrollHeight);
+//         });
+//       });
+//     };
 
-    scrollToBottom();
+//     scrollToBottom();
 
-    // Fires on Vite hot updates
-    import.meta.hot?.on("vite:afterUpdate", scrollToBottom);
+//     // Fires on Vite hot updates
+//     import.meta.hot?.on("vite:afterUpdate", scrollToBottom);
 
-    return () => {
-      import.meta.hot?.off("vite:afterUpdate", scrollToBottom);
-    };
-  }, []);
+//     return () => {
+//       import.meta.hot?.off("vite:afterUpdate", scrollToBottom);
+//     };
+//   }, []);
 
-  return null;
-}
+//   return null;
+// }
 
 
 createRoot(document.getElementById('header')!).render(
   <StrictMode>
     <>
-      {import.meta.env.DEV && <DevScrollToBottom />}
+      {/* {import.meta.env.DEV && <DevScrollToBottom />} */}
       <NavComponent />
     </>
   </StrictMode>
@@ -57,7 +57,9 @@ createRoot(document.getElementById('main')!).render(
         <CurvedText />
         <div className="guideButton">
           <h2>More About Me</h2>
-          <ArrowDownIcon />
+          <a href='#about'>
+            <ArrowDownIcon />
+          </a>
         </div>
       </section>
       <section id="about">
@@ -91,6 +93,8 @@ createRoot(document.getElementById('main')!).render(
       <section id="projects">
         <span className="center">Recent Projects</span>
         <div className="project-container">
+          <CardComponent />
+          <CardComponent />
           <CardComponent />
           <CardComponent />
           <CardComponent />

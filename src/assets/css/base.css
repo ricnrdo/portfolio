@@ -13,6 +13,7 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html, p, body, img {
@@ -22,6 +23,7 @@ html, p, body, img {
 
 html {
   background-image: linear-gradient(to bottom, #AAAAC9, #8D92B5);
+  scroll-behavior: smooth;
 }
 
 a {

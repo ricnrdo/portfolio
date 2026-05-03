@@ -1,6 +1,5 @@
 #home {
     position: relative;
-    z-index: -1;
 }
 
 #home img {
@@ -27,6 +26,7 @@
     align-items: center;
     margin: 0 3rem;
     gap: 1rem;
+    z-index: 1000;
 }
 
 .down-arrow-icon {
