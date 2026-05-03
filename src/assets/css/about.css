@@ -51,3 +51,42 @@
     grid-area: cutout-container;
     padding-top: 2rem;
 }
+
+
+
+#about-me {
+    display: grid;
+    padding: 4rem;
+    padding-top: 8rem;
+    grid-template-columns: minmax(30%, 45%) minmax(30%, 55%);
+    gap: 4rem;
+}
+
+.left-panel {
+    position: sticky;
+    top: 3rem;
+    
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left-panel img {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dividers {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
