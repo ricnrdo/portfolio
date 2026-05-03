@@ -6,3 +6,6 @@
 @import url('./skills.css');
 @import url('./projects.css');
 @import url('./contact.css');
+
+/* Different Screen Sizes */
+@import url('./sizes.css');

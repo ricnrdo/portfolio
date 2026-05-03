@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+    #about {
+        grid-template-columns: minmax(45%, 50%) minmax(30%, 40%);
+        grid-template-areas: 
+        "title cutout-container"
+        "text-box cutout-container"
+        "text-box cutout-container";
+        row-gap: 2rem;
+    }
+
+    .cutout-container {
+        all: unset;
+        display: flex;
+        width: 100%;
+        grid-area: cutout-container;
+        margin: auto;
+    }
+
+    .cutout {
+        width: 100%;
+        border-radius: 2rem;
+    }
+}

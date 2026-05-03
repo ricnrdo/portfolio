@@ -69,7 +69,7 @@ createRoot(document.getElementById('main')!).render(
 
           In the past, I've had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I also released a comprehensive video course a few years ago, guiding learners through building a web app with the Spotify API
         </p>
-        <a href="#home" className="glass">
+        <a href="#home" className="glass round-bttn">
           Learn More
         </a>
         </div>
@@ -97,7 +97,7 @@ createRoot(document.getElementById('main')!).render(
           <CardComponent />
         </div>
         <div className="load-more">
-          <a href="#home" className='glass'>
+          <a href="#home" className='glass round-bttn'>
             More Projects
           </a>
         </div>
@@ -106,11 +106,11 @@ createRoot(document.getElementById('main')!).render(
         <span className="center">Contact Form</span>
         <form action="" method="post">
           <div>
-            <input className='glass' type='text' placeholder='First Name'/>
-            <input className='glass' type='text' placeholder='Last Name'/>
+            <input className='glass-depth' type='text' placeholder='First Name'/>
+            <input className='glass-depth' type='text' placeholder='Last Name'/>
           </div>
-          <input className='glass' type='text' placeholder='Subject'/>
-          <textarea className='glass' placeholder='Email Body'></textarea>
+          <input className='glass-depth' type='text' placeholder='Subject'/>
+          <textarea className='glass-depth' placeholder='Email Body'></textarea>
           <input className='glass' type='submit' id='submit-btn'/>
         </form>
       </section>

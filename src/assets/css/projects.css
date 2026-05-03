@@ -30,6 +30,7 @@
 
 .project-description {
     font-size: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .project-card img {
@@ -46,7 +47,7 @@
 .load-more a {
     display: flex;
     width: fit-content;
-    padding: 1.5rem 2.5rem;
+    padding: 1.3rem 4rem;
     justify-content: space-between;
     border-radius: 1em;
 }

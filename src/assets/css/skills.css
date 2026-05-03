@@ -1,19 +1,19 @@
 #skills {
     position: relative;
     display: block;
-    background-color: #E1D7D0;
+    background-color: #ebe0ff3a;
 }
 
 .skill-title {
     position: absolute;
     width: fit-content;
-    padding: 1.3rem 1.7rem;
+    padding: 1.2rem 2.5rem;
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: 500;
 
     /* Positioning */
-    top: -2.5rem;
+    top: -2.2rem;
     left: 0;
     right: 0;
     margin-inline: auto;

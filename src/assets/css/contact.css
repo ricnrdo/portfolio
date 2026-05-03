@@ -4,6 +4,16 @@
     background: rgba(84, 62, 122, 0.229);
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
+input::placeholder, input, textarea::placeholder, textarea {
+    color: #482C2C;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 #contact span {
     font-size: 1.8rem;
     font-weight: 600;
