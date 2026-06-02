@@ -6,6 +6,8 @@ import cutout from '../assets/img/no-cutout.jpeg';
 import SkillComponent from '../components/skillComponent';
 import CardComponent from '../components/cardComponent';
 
+import { projects } from "../data/projects";
+
 function Home() {
   return (
     <>
@@ -50,12 +52,14 @@ function Home() {
       <section id="projects">
         <span className="center">Recent Projects</span>
         <div className="project-container">
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
+          {projects.map((project) => (
+            <CardComponent
+              key={project.id}
+              id={project.id}
+              image={project.image}
+              title={project.title}
+            />
+          ))}
         </div>
         <div className="load-more">
           <a href="#home" className='glass round-bttn'>
