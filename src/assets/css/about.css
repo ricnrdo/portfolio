@@ -54,7 +54,7 @@
 
 /* About Me Page */
 
-#about-me {
+#about-me .columns {
     display: grid;
     padding: 4rem;
     padding-top: 8rem;
@@ -111,4 +111,21 @@
 
 #about-me a:hover {
     background-color: rgba(103, 97, 97, 0.146);
+}
+
+.git {
+    background-color: #482C2C;
+    padding: 4rem 0 3rem 0;
+    color: rgb(184, 168, 168);
+}
+
+.git > * {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.git .title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
 }
