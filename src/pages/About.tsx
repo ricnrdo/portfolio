@@ -36,7 +36,12 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <GitHubCalendar username="ricnrdo" />
+            <div className="wrapper git">
+                <div className="title">
+                    <h1>GitHub Activity</h1>
+                </div>
+                <GitHubCalendar username="ricnrdo" />
+            </div>
         </section>
     );
 }
