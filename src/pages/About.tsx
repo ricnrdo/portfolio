@@ -1,4 +1,4 @@
-import cutout from '../assets/img/no-cutout.jpeg';
+import cutout from '../assets/img/headshot.jpeg';
 // import git from '../assets/img/git.png';
 
 export default function About() {

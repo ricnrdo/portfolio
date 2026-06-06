@@ -52,13 +52,13 @@
     padding-top: 2rem;
 }
 
-
+/* About Me Page */
 
 #about-me {
     display: grid;
     padding: 4rem;
     padding-top: 8rem;
-    grid-template-columns: minmax(30%, 45%) minmax(30%, 55%);
+    grid-template-columns: minmax(30%, 40%) minmax(30%, 55%);
     gap: 4rem;
 }
 
@@ -77,12 +77,19 @@
     position: sticky;
     top: 0;
     width: 100%;
+    aspect-ratio: 1/1.1;
+    object-fit: cover;
+    border-radius: 8%;
 }
 
 .right-panel {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    .description {
+        font-size: 1.2rem;
+    }
 }
 
 .dividers {

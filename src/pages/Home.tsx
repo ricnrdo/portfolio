@@ -2,7 +2,7 @@ import backgroundImage from '../assets/img/background.jpg';
 
 import CurvedText from '../components/curvedText';
 import ArrowDownIcon from '../components/downArrow';
-import cutout from '../assets/img/no-cutout.jpeg';
+import cutout from '../assets/img/u_headshot.jpeg';
 import SkillComponent from '../components/skillComponent';
 import CardComponent from '../components/cardComponent';
 
