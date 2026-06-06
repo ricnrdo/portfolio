@@ -1,4 +1,5 @@
 import cutout from '../assets/img/headshot.jpeg';
+import {GitHubCalendar} from "react-github-calendar";
 // import git from '../assets/img/git.png';
 
 export default function About() {
@@ -33,6 +34,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <GitHubCalendar username="ricnrdo" />
         </section>
     );
 }
