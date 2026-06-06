@@ -54,7 +54,7 @@
 
 /* About Me Page */
 
-#about-me {
+#about-me .columns {
     display: grid;
     padding: 4rem;
     padding-top: 8rem;
