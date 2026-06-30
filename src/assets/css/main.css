@@ -1,3 +1,5 @@
+@import url('./theme.css');
+
 @import url('./base.css');
 @import url('./nav.css');
 
@@ -5,7 +7,9 @@
 @import url('./about.css');
 @import url('./skills.css');
 @import url('./projects.css');
+
+
 @import url('./contact.css');
 
 /* Different Screen Sizes */
-@import url('./sizes.css');
+/* @import url('./sizes.css'); */

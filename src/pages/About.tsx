@@ -22,19 +22,66 @@ export default function About() {
                         <div className="title"><h1>About Me</h1></div>
                         <div className="description">
                             <p>
-                                My name is Ricardo Puma. I’m a computer science student interested in building clean, accessible, and practical web experiences. I enjoy working on projects that combine design and functionality, especially when I can take an idea and turn it into something people can actually use.
+                                Hey There! My name is Ricardo Puma. I recently graduated with my Bachelor of Science in Computer Science. I actually started getting interest in Computer Science at a relatively young age. During my robotics course in High School, I realized I may be interested in tech afterall. And a couple years after, I followed that path and now I can proudly say I accomplished my dream.
                             </p>
                             <br/>
                             <p>
-                                My work mainly focuses on frontend development, responsive layouts, and creating reusable components. I’m currently improving my skills in React, TypeScript, and modern web development while continuing to explore how thoughtful design can make technology easier to understand and use.
+                                A valuable lesson I learned is that meaningful things are often built from pieces that may seem insignificant on their own. Whether it is ideas, opportunities, or people, I enjoy finding ways to bring those pieces together and create something with purpose. Through my experience in community service and leadership, I learned that even the smallest contributions can become part of something much greater. That is a mindset I hope to carry into my work as an aspiring Software Engineer.
                             </p>
                             <br/>
                             <p>
-                                Outside of coding, I enjoy learning through hands-on projects, experimenting with new tools, and finding better ways to organize and present information. I’m always looking for opportunities to grow as a developer and build projects that feel both useful and polished.
+                                After graduation, I have found myself working on this portfolio website, and thereafter will continue on building many of the ideas that I have came up for the last couple of years. It's time to make those a reality.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="dividers" id="divider-default">
+                        <div className="title"><h1>Education</h1></div>
+                        <div className="description">
+                            <p>
+                                NYU Tandon - September 2026 to May 2028 <br/>
+                                Master of Science in Emerging Technologies
+                            </p>
+                            <br/>
+                            <p>
+                                SUNY Plattsburgh - Aug 2023 to May 2026 <br/>
+                                Bachelor of Science in Computer Science
+                            </p>
+                        </div>
+                    </div>
+                    <div className="dividers" id="divider-default">
+                        <div className="title"><h1>Technologies</h1></div>
+                        <div className="description">
+                            <p>
+                                React Native
+                            </p>
+                            <p>
+                                Javascript
+                            </p>
+                            <p>
+                                Python
+                            </p>
+                        </div>
+                    </div>
+                    <div className="dividers" id="divider-default">
+                        <div className="title"><h1>Current Goals</h1></div>
+                        <div className="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam deleniti a id quis. Saepe, iste assumenda libero cumque ducimus eveniet distinctio odit itaque voluptates natus doloremque possimus aliquam labore minus?
                             </p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="wrapper resume">
+                <div className="title">
+                    <h1>Resume</h1>
+                </div>
+                <iframe
+                    src="/resume.pdf"
+                    width="100%"
+                    height="600"
+                    title="Resume"
+                />
             </div>
             <div className="wrapper git">
                 <div className="title">

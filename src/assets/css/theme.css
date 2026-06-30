@@ -1,0 +1,16 @@
+:root {
+    /* Colors */
+    --color-primary: #8D92B5;
+    --color-primary-lighter: #AAAAC9;
+    --color-secondary: rgb(72, 44, 44);
+
+    /* Fonts */
+    --font-heading: "Outfit", sans-serif;
+
+    /* Font Sizes */
+    --text-h1: 2rem;        /* 32px */
+    --text-h2: 1.5rem;      /* 24px */
+    --text-h3: 1.25rem;     /* 20px */
+    --text-h4: 1rem;        /* 16px */
+    --text-h5: 0.875rem;    /* 14px */
+}

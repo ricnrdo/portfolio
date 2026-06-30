@@ -13,14 +13,14 @@ type SkillComponentProps = {
 
 export default function SkillComponent({ ariaHidden }: SkillComponentProps) {
     return (
-        <div aria-hidden={ariaHidden} className="group">
-            <img className="card" src={typescript} alt='TypeScript'/>
-            <img className="card" src={javascript} alt='JavaScript'/>
-            <img className="card" src={react} alt='React/React Native'/>
-            <img className="card" src={git} alt='Git'/>
-            <img className="card" src={github} alt='GitHub'/>
-            <img className="card" src={c} alt='C Language'/>
-            <img className="card" src={python} alt='Python'/>
+        <div aria-hidden={ariaHidden} className="carousel skills">
+            <img src={typescript} alt='TypeScript'/>
+            <img src={javascript} alt='JavaScript'/>
+            <img src={react} alt='React/React Native'/>
+            <img src={git} alt='Git'/>
+            <img src={github} alt='GitHub'/>
+            <img src={c} alt='C Language'/>
+            <img src={python} alt='Python'/>
         </div>
     )
 };

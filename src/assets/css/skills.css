@@ -1,62 +1,14 @@
 #skills {
+    display: grid;
     position: relative;
-    display: block;
-    background-color: #ebe0ff3a;
-}
-
-.skill-title {
-    position: absolute;
-    width: fit-content;
-    padding: 1.2rem 2.5rem;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: 500;
-
-    /* Positioning */
-    top: -2.2rem;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-
-}
-
-.carousel {
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-    opacity: 85%;
-    padding: 2.5rem 0 2rem 0;
-}
-
-.carousel::-webkit-scrollbar {
-    display: none;
-}
-
-.group {
-    display: flex;
-    width: max-content;
+    height: 8.3rem;
+    background-color: var(--color-primary-lighter);
     align-items: center;
-    justify-content: center;
-    gap: 6rem;
-    animation: spin 20s infinite linear;
-    padding-right: 6rem;
 }
 
-.card {
-    display: flex;
-    flex: 0 0 auto;
-    width: min-content;
-    height: 45px;
-    text-align: center;
-    align-content: center;
-    margin: 0 1rem;
-}
-
-.carousel:hover .group {
-    animation-play-state: paused;
-}
-
-@keyframes spin {
-    from { translate: 0; }
-    to { translate: -100%; }
+.skills {
+    height: 4rem;
+    gap: 3rem;
+    justify-content: space-between;
+    padding: 0 10rem;
 }

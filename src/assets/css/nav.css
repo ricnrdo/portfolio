@@ -1,39 +1,70 @@
-header {
-    position: absolute;
-    height: 5rem;
-    width: 100%;
-    top: 0;
-    z-index: 10;
+#header {
+    position: fixed;
+    width: stretch;
+    z-index: 100;
+
+    animation-name: smoothlyBack;
+    animation-duration: 1s;
+    
 }
 
-.nav-container {
+nav {
     display: flex;
-    align-items: center;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
-    height: 100%;
+    border-radius: 2rem;
+
 }
 
-/* .nav-container.glass {
-    transition:
-        background-color 1.5s ease,
-        backdrop-filter 1.5s ease,
-        -webkit-backdrop-filter 1.5s ease;
-} */
-
-.nav-container img {
-    width: 6rem;
+nav.scrolled {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
 
-.navigation {
-    all: unset;
+.links {
     display: flex;
-    gap: 4rem;
-    margin-left: 1rem;
-    align-items: center;
+    list-style: none;
+    gap: 7.5rem;
+    font-size: 1.40rem;
+    font-weight: 600;
 }
 
-.navigation li {
-    list-style: none;
-    font-size: 1.4rem;
+#header:has(nav.scrolled) {
+    animation-name: smoothly;
+    animation-duration: 1s;
+
+    left: 3rem;
+    right: 3rem;
+    top: 2rem;
+
+    ::before {
+        border-radius: 2rem;
+    }
+}
+
+@keyframes smoothly {
+    0% {
+        left: 0.5rem;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+    100% {
+        left: 3rem;
+        right: 3rem;
+        top: 2rem;
+    }
+}
+
+@keyframes smoothlyBack {
+    100% {
+        left: 0rem;
+        right: 0rem;
+        top: 0rem;
+    }
+    0% {
+        left: 3rem;
+        right: 3rem;
+        top: 2rem;
+    }
 }
