@@ -4,7 +4,8 @@ import backgroundImage from '../assets/img/background.jpg';
 import CurvedText from '../components/curvedText';
 import ArrowDownIcon from '../components/downArrow';
 import cutout from '../assets/img/cutout.png';
-import Snowpile from '../../public/snowpile.svg?react';
+import Snowpile from '../assets/img/snowpile.svg?react';
+import Logo from '../assets/img/logo.svg?react';
 
 import SkillComponent from '../components/skillComponent';
 import CardComponent from '../components/cardComponent';
@@ -89,9 +90,9 @@ function Home() {
       <section id='footer' className='default-padding'>
         <div className="copyright">
           <a href="/">
-            <img className="logo" src="./src/assets/img/logo.svg" alt="logo"/>
+            <Logo className='logo'/>
           </a>
-          <p>© 2026 Ricardo Puma. All rights reserved.</p>
+          <p className='h3'>© 2026 Ricardo Puma. All rights reserved.</p>
         </div>
         <div className="socials">
           <a className='icon' href="https://instagram.com/ricnrdo">

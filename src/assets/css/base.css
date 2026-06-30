@@ -26,6 +26,7 @@ ul {
 
 .logo {
     width: 8rem;
+    height: auto;
 }
 
 a, p, span {
