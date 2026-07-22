@@ -20,7 +20,7 @@ function NavComponent() {
                 <li><a href="/#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <img className="logo" src={logo}/>
+            <a href="/" style={{zIndex: 1}}><img className="logo" src={logo}/></a>
         </nav>
     )
 }

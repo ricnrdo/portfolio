@@ -24,6 +24,10 @@ ul {
   z-index: 101;
 }
 
+nav .logo {
+  height: stretch;
+}
+
 .logo {
     width: 8rem;
     height: auto;
@@ -55,6 +59,10 @@ a, p, span {
 
 .h5 {
   font-size: var(--text-h5);
+}
+
+#footer {
+  padding: 10rem;
 }
 
 .default-padding {
