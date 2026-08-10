@@ -5,7 +5,7 @@ import NavComponent from './components/navComponent'
 
 // Routing
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Project from './pages/Project';
+import Projects from './pages/Projects';
 import About from './pages/About';
 
 import Home from './pages/Home';
@@ -59,7 +59,7 @@ createRoot(document.getElementById('main')!).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/project/:id' element={<Project />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/about' element={<About />} />
       </Routes>
     </BrowserRouter>

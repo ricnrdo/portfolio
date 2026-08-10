@@ -69,5 +69,143 @@ export const projects = [
     ],
 
     challenges: "I learned how to structure a React project better by separating pages, components, and project data."
+  },
+  {
+    id: "portfolio",
+    featured: false,
+    title: "portfolio",
+    image: nextdemy,
+    description: "A personal portfolio website built to showcase my projects, skills, and development experience.",
+    github: "https://github.com/yourname/portfolio",
+    demo: "https://yourportfolio.com",
+
+    whyBuilt: "I built this portfolio to create a stronger online presence and present my work in a more professional way.",
+    howItWorks: "The site uses React Router for navigation and a shared project template for individual project pages.",
+
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+
+    features: [
+      "Responsive design",
+      "Smooth scrolling",
+      "Reusable project cards",
+      "Dynamic project detail pages"
+    ],
+
+    challenges: "I learned how to structure a React project better by separating pages, components, and project data."
+  },
+  {
+    id: "portfolio",
+    featured: false,
+    title: "portfolio",
+    image: nextdemy,
+    description: "A personal portfolio website built to showcase my projects, skills, and development experience.",
+    github: "https://github.com/yourname/portfolio",
+    demo: "https://yourportfolio.com",
+
+    whyBuilt: "I built this portfolio to create a stronger online presence and present my work in a more professional way.",
+    howItWorks: "The site uses React Router for navigation and a shared project template for individual project pages.",
+
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+
+    features: [
+      "Responsive design",
+      "Smooth scrolling",
+      "Reusable project cards",
+      "Dynamic project detail pages"
+    ],
+
+    challenges: "I learned how to structure a React project better by separating pages, components, and project data."
+  },
+  {
+    id: "portfolio",
+    featured: false,
+    title: "portfolio",
+    image: nextdemy,
+    description: "A personal portfolio website built to showcase my projects, skills, and development experience.",
+    github: "https://github.com/yourname/portfolio",
+    demo: "https://yourportfolio.com",
+
+    whyBuilt: "I built this portfolio to create a stronger online presence and present my work in a more professional way.",
+    howItWorks: "The site uses React Router for navigation and a shared project template for individual project pages.",
+
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+
+    features: [
+      "Responsive design",
+      "Smooth scrolling",
+      "Reusable project cards",
+      "Dynamic project detail pages"
+    ],
+
+    challenges: "I learned how to structure a React project better by separating pages, components, and project data."
+  },
+  {
+    id: "portfolio",
+    featured: false,
+    title: "portfolio",
+    image: nextdemy,
+    description: "A personal portfolio website built to showcase my projects, skills, and development experience.",
+    github: "https://github.com/yourname/portfolio",
+    demo: "https://yourportfolio.com",
+
+    whyBuilt: "I built this portfolio to create a stronger online presence and present my work in a more professional way.",
+    howItWorks: "The site uses React Router for navigation and a shared project template for individual project pages.",
+
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+
+    features: [
+      "Responsive design",
+      "Smooth scrolling",
+      "Reusable project cards",
+      "Dynamic project detail pages"
+    ],
+
+    challenges: "I learned how to structure a React project better by separating pages, components, and project data."
+  },
+  {
+    id: "portfolio",
+    featured: false,
+    title: "portfolio",
+    image: nextdemy,
+    description: "A personal portfolio website built to showcase my projects, skills, and development experience.",
+    github: "https://github.com/yourname/portfolio",
+    demo: "https://yourportfolio.com",
+
+    whyBuilt: "I built this portfolio to create a stronger online presence and present my work in a more professional way.",
+    howItWorks: "The site uses React Router for navigation and a shared project template for individual project pages.",
+
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+
+    features: [
+      "Responsive design",
+      "Smooth scrolling",
+      "Reusable project cards",
+      "Dynamic project detail pages"
+    ],
+
+    challenges: "I learned how to structure a React project better by separating pages, components, and project data."
+  },
+  {
+    id: "portfolio",
+    featured: false,
+    title: "portfolio",
+    image: nextdemy,
+    description: "A personal portfolio website built to showcase my projects, skills, and development experience.",
+    github: "https://github.com/yourname/portfolio",
+    demo: "https://yourportfolio.com",
+
+    whyBuilt: "I built this portfolio to create a stronger online presence and present my work in a more professional way.",
+    howItWorks: "The site uses React Router for navigation and a shared project template for individual project pages.",
+
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+
+    features: [
+      "Responsive design",
+      "Smooth scrolling",
+      "Reusable project cards",
+      "Dynamic project detail pages"
+    ],
+
+    challenges: "I learned how to structure a React project better by separating pages, components, and project data."
   }
 ];

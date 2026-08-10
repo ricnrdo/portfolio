@@ -17,7 +17,7 @@ function NavComponent() {
         <nav className={`default-padding ${scrolled ? "glass scrolled" : ""}`}>
             <ul className="links">
                 <li><a href="/about">About</a></li>
-                <li><a href="/#projects">Projects</a></li>
+                <li><a href="/projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="/" style={{zIndex: 1}}><img className="logo" src={logo}/></a>

@@ -68,3 +68,40 @@
         margin: -0.5rem;
     }
 }
+
+#project {
+    position: relative;
+    padding-top: 8.5rem;
+    padding-bottom: 0;
+    
+    .search-bar {
+        position: relative;
+
+        span {
+            margin-left: 5rem;
+        }
+
+        .search {
+            margin-right: 1rem;
+        }
+
+    }
+
+    .long-btn {
+        max-width: unset;
+        justify-content: space-between;
+        height: 5rem;
+        border-radius: 4rem;
+    }
+
+    .search {
+        width: 15rem;
+        padding: 1rem 2.5rem;
+        position: inherit;
+        border-radius: 2rem;
+
+        input {
+            z-index: 222;
+        }
+    }
+}
